@@ -47,8 +47,8 @@ function renderTask(task) {
             <button class="btn btn-success btn-sm me-2" onclick="editTask(${task.id})">
                 <i class="bi bi-pencil-fill"></i>
             </button>
-            <button class="btn btn-danger btn-sm" onclick="deleteTask(${task.id})">
-                <i class="bi bi-trash-fill"></i>
+            <button class="btn btn-danger btn-sm mt-2 mt-md-0" onclick="deleteTask(${task.id})">
+            <i class="bi bi-trash-fill"></i>
             </button>
         </div>
     `;
